@@ -1,0 +1,14 @@
+var name1 = "Mike";
+var name1 = "Max";
+var name1 = "Gabi";
+var noun1, noun2, noun3;
+var verb1, verb2, verb3;
+var adj1, adj2, adj3;
+var adv1, adv2, adv3;
+var prep1, prep2, prep3;
+var person = prompt("pick
+document.write("One day " + name +" woke up "
++ "confused.");
+document.write(name2 + " asked, what's wrong "
++ name + "?");
+

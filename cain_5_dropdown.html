@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Baseball</title>
+                <meta name="keywords" content="d22 is awesome; ninja">
+                <meta name="description" content="">
+                <link rel="stylesheet" type="text/css" href="cain_5_dropdown.css">
+            
+                <!-- dd menu -->
+<script type="text/javascript">
+<!--
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+
+</head>
+<body>
+
+<center><h1>Baseball</h1></center>
+
+
+
+<ul id="sddm">
+	<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Baseball Bats</a>
+		<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./cain_5_macs/./cain_5_Wood.html">Wood</a>
+		<a href="./cain_5_macs/./cain_5_Aluminum.html">Aluminum</a>
+		<a href="./cain_5_macs/./cain_5_Composite.html">Composite</a>
+		<a href="./cain_5_macs/./cain_5_Hybrid.html">Hybrid</a>
+		<a href="./cain_5_macs/./cain_5_Toy.html">Toy</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Baseball Gloves</a>
+		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./cain_5_music/./cain_5_Catcher's_Glove.html">Catcher's Glove</a>
+		<a href="./cain_5_music/./cain_5_First baseman's_Glove.html">First baseman's Glove</a>
+		<a href="./cain_5_music/./cain_5_Infielder's_Glove.html">Infielder's Glove</a>
+		<a href="./cain_5_music/./cain_5_Outfielder's_Glove.html">Outfielder's Glove</a>
+        <a href="./cain_5_music/./cain_5_Pitcher's_Glove.html">Pitcher's Glove</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Baseball Cards</a>
+		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./cain_5_Tablets/./cain_5_Babe Ruth Rookie Card.html">Babe Ruth Rookie Card</a>
+		<a href="./cain_5_Tablets/./cain_5_Honus Wagner Rookie Card.html">Honus Wagner Rookie Card</a>
+        <a href="./cain_5_Tablets/./cain_5_Ryan Howard Rookie Card.html">Ryan Howard Rookie Card</a>
+        <a href="./cain_5_Tablets/./cain_5_Ken Griffey Jr Rookie Card.html">Ken Griffey Jr Rookie Card</a>
+        <a href="./cain_5_Tablets/./cain_5_Mark McGwire Rookie Card.html">Mark McGwire Rookie card</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Baseball Teams</a>
+		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./cain_5_About_Apple/./cain_5_Arizona Diamondbacks.html">Arizona Diamondbacks</a>
+		<a href="./cain_5_About_Apple/./cain_5_Atlanta Braves.html">Atlanta Braves</a>
+        <a href="./cain_5_About_Apple/./cain_5_Baltimore Orioles.html">Baltimore Orioles</a>
+        <a href="./cain_5_About_Apple/./cain_5_Boston Red Sox.html">Boston Red Sox</a>
+        <a href="./cain_5_About_Apple/./cain_5_Chicago Cubs.html">Chicago Cubs</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Baseball MVP</a>
+		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="./cain_5_Support/./cain_5_Ty Cobb.html">Ty Cobb</a>
+		<a href="./cain_5_Support/./cain_5_Tris Speaker.html">Tris Speaker</a>
+		<a href="./cain_5_Support/./cain_5_Walter Johnson.html">Walter Johnson</a>
+        <a href="./cain_5_Support/./cain_5_Eddie Collins.html">Eddie Collins</a>
+        <a href="./cain_5_Support/./cain_5_Babe Ruth.html">Babe Ruth</a>
+		</div>
+	</li>
+</ul>
+<div style="clear:both"></div>
+
+<div style="clear:both"></div>
+
+</body>
+</html>

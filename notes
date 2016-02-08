@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script src="hello.js"></script>
+<ol>Things to know about JavaScript:
+<li>JavaScript is NOT <u>Java</u> </li>
+<li>JavaScript is called Javascript because
+it is Java &qout; inspired &qout; but it's
+not Java. </li>
+<li>JavaScript is <i>hard</i>
+but it is the most used programming language
+</li>
+<li> JavaScript is hard bacause - it provides
+little feedback</li>
+<li>We recognize JavaScript -- by: <br/>
+var --- prefaces variables in JavaScript
+<br/>
+variables - something with dynamic values</li> <br/>
+<li>What makes JavaScrpit cool?<br/>
+<li>You can accept and work with input.</li>
+<li>You can automate behaviors</li>
+</body>
+</html>
+
